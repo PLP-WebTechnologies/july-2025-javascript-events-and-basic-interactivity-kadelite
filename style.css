@@ -1,0 +1,86 @@
+/* General Page Styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f4f4f4;
+    color: #333;
+    padding: 20px;
+    transition: background 0.3s, color 0.3s;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #007bff;
+    color: #fff;
+    padding: 15px 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+header button {
+    background: #fff;
+    color: #007bff;
+    border-radius: 4px;
+    font-weight: bold;
+    border: none;
+    padding: 5px 10px;
+}
+
+button {
+    cursor: pointer;
+    padding: 5px 10px;
+    margin-top: 5px;
+}
+
+section {
+    background: #fff;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* FAQ Styling */
+.faq-answer {
+    display: none;
+    margin-left: 20px;
+}
+
+.error {
+    color: red;
+    font-size: 0.9em;
+}
+
+/* Dark Mode Styling */
+.dark-mode {
+    background: #222;
+    color: #fff;
+}
+
+/* Tabs Styling */
+.tabs {
+    margin-top: 10px;
+}
+
+.tab-btn {
+    padding: 8px 16px;
+    margin-right: 5px;
+    border: none;
+    background-color: #eee;
+    cursor: pointer;
+    border-radius: 4px 4px 0 0;
+    transition: background 0.3s;
+}
+
+.tab-btn.active {
+    background-color: #ccc;
+}
+
+.tab-content {
+    border: 1px solid #ccc;
+    border-top: none;
+    padding: 15px;
+    border-radius: 0 0 4px 4px;
+    background-color: #f9f9f9;
+}
